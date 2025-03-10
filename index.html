@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mediaquery.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="svg/favicon.ico" type="image/icon type">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img id="hamburger" src="svg/hamburger.svg" alt="">
+                <img src="svg/spotifylogo.svg" alt="this is logo">
+            </div>
+            <div class="middle">
+                <button class="home">
+                    <i class="fa-solid fa-house"></i>
+                </button>
+                <div class="search">
+                    <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div>
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="What do you want to play?">
+                        </form>
+                    </div>
+                    <div class="cart">
+                        <p class="line">|</p>
+                        <img src="svg/cart.svg" alt="this is cart image" height="30px" width="30px">
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="signup">Sign up</button>
+                <button class="login">Log in</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="left">
+            <div class="container1">
+                <div class="library-section">
+                    <div class="library">
+                        <div class="first">
+                            <img src="svg/library.svg" alt="this is a library logo" height="25px" width="30px">
+                            <p>Your library</p>
+                        </div>
+                        <div class="second">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="card-section">
+
+                    <div class="card card1">
+                        <h4>Create your first playlist</h4>
+                        <p>It's easy, we'll help you</p>
+                        <button>
+                            Create playlist
+                        </button>
+                    </div>
+                    <div class="card card2">
+                        <h4>Let's find some pordcast to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>
+                            Browse podcasts
+                        </button>
+                    </div>
+
+                </div> -->
+
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="container2">
+                <div class="terms">
+                    <div class="condition">
+                        <div>Legal</div>
+                        <div>Safety & Privacy Center</div>
+                        <div>Privacy Policy</div>
+                        <div>Cookies</div>
+                        <div>About Ads</div>
+                        <div>Accessibility</div>
+                    </div>
+                    <div class="cookies">
+                        Cookies
+                    </div>
+                </div>
+
+                <button class="language">
+                    <img src="svg/globe.svg" alt="">
+                    <span>English</span>
+                </button>
+            </div>
+        </div>
+
+
+
+
+        <div class="right">
+            <div class="spotifyPlaylist">
+                <h2>Spotify Playlist</h2>
+                <div class="cardContainer">   
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="section1">
+            <div id="songinfo"></div>
+            <div class="playbar">
+
+                <div id="previous">
+                    <img src="svg/previous.svg" alt="">
+                </div>
+                <div id="play">
+                    <img src="svg/play.svg" alt="">
+                </div>
+                <div id="next">
+                    <img src="svg/next.svg" alt="">
+                </div>
+
+            </div>
+            <div id="songduration"></div>
+        </div>
+        <div class="seekbar">
+            <div class="circle"></div>
+        </div>
+        <div class="volume">
+            <img src="svg/volume.svg" alt="">
+            <input type="range" name="range" id="range">
+        </div>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

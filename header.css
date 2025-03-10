@@ -1,0 +1,141 @@
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px; 
+}
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+/* For Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #333 #1a1a1a;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+}
+
+body{
+    background-color: black;
+    height: 100%;
+    position: relative;
+}
+
+header nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position:sticky;
+    top: 0; */
+}
+nav .logo{
+    margin-left: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.logo #hamburger{
+    display: none;
+}
+
+header nav .middle .home{
+    background-color: #121212;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    position: relative;  
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+.middle .home i{
+    filter: invert(1);
+    font-size: 1.3rem;
+    color: #444444;
+}
+.search{
+    background-color: #121212;
+    color: #444444;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 30px;
+    padding: 2px 12px;
+    /* border:2px solid white; */
+    /* width: 31vw; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.middle .search i{
+    font-size: 1.5rem;
+    filter: invert(1);
+    padding-right: 10px;
+    cursor: pointer;
+}
+.middle .search form input{
+    border: none;
+    outline: none;
+    font-size: 1.05rem;
+    font-weight: 400;
+    padding: 10px 2px;
+    background-color: #121212;
+    color: white;
+    width: 330px;
+    /* border: 2px solid red; */
+
+}
+.search .cart{
+    display: flex;
+    align-items: center;
+}
+.search .cart .line{
+    font-size: 1.8rem;
+    color:#444444;;
+    margin-right: 10px;
+}
+.search .cart img{
+    margin-top: 10px;
+}
+
+
+.btn{
+    margin-right: 10px;
+}
+.btn *{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 30px;
+}
+.signup{
+    padding: 15px 20px;
+    background: black;
+    color: #b3b3b3;
+}
+.login{
+    padding: 12px 30px;
+}

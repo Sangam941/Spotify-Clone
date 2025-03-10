@@ -1,0 +1,70 @@
+footer{
+    height: 12vh;
+    background-color: black;
+    color: gray;
+    max-width: 100%;
+    gap: 0px;
+    
+}
+.section1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+
+#songinfo{
+    width: 15%;
+}
+#songduration{
+    width: 16%;
+}
+.volume{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+#range{
+    height: 5px;
+    width: 80px;
+}
+
+
+footer .playbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid yellow; */
+    margin: 10px 0px;
+    color: white;
+    
+}
+.seekbar{
+    height: 4px;
+    width: 50%;
+    margin: auto;
+    background-color: gray;
+    position: relative;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+.seekbar .circle{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5px;
+    left: 0%;
+    transition: left 0.5s;
+    cursor: pointer;
+}
+
+#play, #previous, #next{
+    cursor: pointer;
+}

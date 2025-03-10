@@ -1,0 +1,7 @@
+main{
+    display: flex;
+    gap: 7px;
+}
+main *{
+    border-radius: 10px;
+}
