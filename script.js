@@ -294,7 +294,7 @@ async function displayalbum() {
 
 async function main() {
 
-    // await getSong("music/a_music");  
+    await getSong("music/a_music");   
     await displayalbum();
     
     
